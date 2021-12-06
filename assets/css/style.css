@@ -9,7 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  line-height: 0.8;
+  line-height: 1.2;
   background-color: var(--primary);
 }
 
@@ -22,7 +22,7 @@ body {
 /* Time, rows, inputs */
 .hour {
   background-color: var(--light);
-  color: var(--dark);
+  color: var(--secondary);
   font-size: large;
   padding: 30px 20px 20px 20px;
   align-content: center;
