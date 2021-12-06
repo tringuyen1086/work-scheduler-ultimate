@@ -28,7 +28,7 @@ A work-scheduler application to set time-block for improving employee's producti
 
 ## Images
 
-[Project Screenshot](./assets/images/launch-page.png)
+![Project Screenshot](./assets/images/launch-page.png)
 
 
 ## References
