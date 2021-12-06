@@ -34,14 +34,14 @@ A work-scheduler application to set time-block for improving employee's producti
 
 ## Project Visual
 
-[05-third-party-apis-work-day-scheduler-demo](https://user-images.githubusercontent.com/77648727/109749055-cbd15c00-7b8e-11eb-8094-1444b7ff92f4.gif)
+![05-third-party-apis-work-day-scheduler-demo](https://user-images.githubusercontent.com/77648727/109749055-cbd15c00-7b8e-11eb-8094-1444b7ff92f4.gif)
 
 
 ## References
 
-[Bootstrap documentation](https://getbootstrap.com/docs/4.3/layout/grid/) 
+[Bootstrap documentation](https://getbootstrap.com/docs/4.3/layout/grid/)
 [Devhints.io for Moment.js](https://devhints.io/moment)
-[jQuery Documentation](https://learn.jquery.com/using-jquery-core/document-ready/)    
+[jQuery Documentation](https://learn.jquery.com/using-jquery-core/document-ready/) 
 [MomentJS Documentation](https://momentjs.com/)    
  
    
