@@ -1,0 +1,99 @@
+:root {
+  --primary: rgb(160, 227, 231);
+  --secondary:rgb(14, 18, 236);
+  --tertiary: rgb(233, 134, 41);
+  --dark: rgb(28, 29, 33);
+  --light: rgb(238, 238, 247);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 0.8;
+  background-color: var(--primary);
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: var(--secondary);
+  border-bottom: 5px solid black;
+}
+/* Time, rows, inputs */
+.hour {
+  background-color: var(--light);
+  color: var(--dark);
+  font-size: large;
+  padding: 30px 20px 20px 20px;
+  align-content: center;
+  vertical-align: middle;
+  border-top: 1px dashed #000000;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+.row {
+  white-space: pre-wrap;
+  min-height: 80px;
+  border-top: 1px solid white;
+  flex-wrap: wrap;
+}
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  min-height: fit-content;
+  border-left: 1px solid black;
+  padding: 5px;
+}
+/* style buttons */
+button {
+  background: var(--tertiary);
+  background-image: -webkit-linear-gradient(top, #0b8fa7, #afdfe6);
+  background-image: -moz-linear-gradient(top, #0b8fa7, #afdfe6);
+  background-image: -ms-linear-gradient(top, #0b8fa7, #afdfe6);
+  background-image: -o-linear-gradient(top, #0b8fa7, #afdfe6);
+  background-image: linear-gradient(to bottom, #0b8fa7, #afdfe6);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: large;
+  border: solid #1f628d 1px;
+  flex-grow: inherit;
+}
+
+/*style button hover */
+button:hover {
+  background: #2980b9;
+  background-image: -webkit-linear-gradient(top, #2980b9, #0ca38f);
+  background-image: -moz-linear-gradient(top, #2980b9, #0ca38f);
+  background-image: -ms-linear-gradient(top, #2980b9, #0ca38f);
+  background-image: -o-linear-gradient(top, #2980b9, #0ca38f);
+  background-image: linear-gradient(to bottom, #2980b9, #0ca38f);
+  text-decoration: #ffffff;
+  flex-grow: inherit;
+}
+
+/* style time for past, present, and future */
+.past {
+  background-color: #cecbcb;
+  color: black;
+}
+
+.present {
+  background-color: #ff6961;
+  color: black;
+}
+
+.future {
+  background-color: #7ce67c;
+  color: black;
+}

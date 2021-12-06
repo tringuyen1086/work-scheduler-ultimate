@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name=”description” content=" A work-scheduler application to set time-block for improving employee's productivity." />
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Work Day Scheduler</title>
+    <link rel="icon" href="./assets/images/heart.png">
+  </head>
+  
+  <body>
+    <!--Header-->
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">
+        A simple calendar app for scheduling your
+        <strong><em>proactive</em></strong> work day.
+      </p>
+      <p>Last refreshed</p>
+      <p id="currentDay" class="lead">Display Time</p>
+    </header>
+    <!--Timeblocks - Schedule Container-->
+    <div class="container">
+      <!--9am = hour 9 & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">9 am</div>
+        <textarea id="9" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--10am = hour 10 & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">10 am</div>
+        <textarea id="10" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--11am = hour 11  & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">11 am</div>
+        <textarea id="11" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--12pm = hour 12  & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">12 pm</div>
+        <textarea id="12" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--1pm = hour 13 & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">1 pm</div>
+        <textarea id="13" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--2pm = hour 14  & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">2 pm</div>
+        <textarea id="14" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--3pm = hour 15  & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">3 pm</div>
+        <textarea id="15" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--4pm = hour 16  & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">4 pm</div>
+        <textarea id="16" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--5pm = hour 17  & Save with Target icon-->
+      <div class="row time-block">
+        <div class="col-md-2 hour">5 pm</div>
+        <textarea id="17" class="col-md-9 description"></textarea>
+        <button class="savePlanButton col-md-1">Save &#127919</button>
+      </div>
+      <!--EOD-->
+    </div>
+    <!--End Planner-->
+    <!--Scripts: Moment, jQuery, JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
