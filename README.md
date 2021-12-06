@@ -33,10 +33,13 @@ A work-scheduler application to set time-block for improving employee's producti
 
 ## References
 
-![Bootstrap documentation](https://getbootstrap.com/docs/4.3/layout/grid/)
-![Devhints.io for Moment.js](https://devhints.io/moment)
-![jQuery Documentation](https://learn.jquery.com/using-jquery-core/document-ready/) 
-![MomentJS Documentation](https://momentjs.com/)    
+[Bootstrap documentation](https://getbootstrap.com/docs/4.3/layout/grid/)
+
+[Devhints.io for Moment.js](https://devhints.io/moment)
+
+[jQuery Documentation](https://learn.jquery.com/using-jquery-core/document-ready/)
+
+[MomentJS Documentation](https://momentjs.com/)    
  
    
    
